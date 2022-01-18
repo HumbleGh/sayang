@@ -74,7 +74,7 @@ section{
 
 /* header */
 .header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../assets/header-bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../assets/img/header-bg.jpg);
     min-height: 100vh;
     background-position: center;
     background-size: cover;
@@ -240,7 +240,7 @@ section{
 }
 /* video */
 .video{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../assets/video-bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../assets/img/video-bg.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -392,7 +392,7 @@ section{
 
 /* testimonial */
 .testimonial{
-    background-image: linear-gradient(rgba(27, 188, 156, 0.8), rgba(27, 188, 156, 0.9)), url(../assets/testimonial-bg.jpg);
+    background-image: linear-gradient(rgba(27, 188, 156, 0.8), rgba(27, 188, 156, 0.9)), url(../assets/img/testimonial-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
