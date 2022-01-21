@@ -487,9 +487,21 @@
         <div class = "row wow animate__animated animate__fadeInUp animate__slow">
           <div class = "contact-left">
             <h2>Send Message Here</h2>
-            <form>
-              <input type = "text" class = "form-control" placeholder="Name">
-              <input type = "email" class = "form-control" placeholder="Email">
+            <!-- Using fromsubmit on the next line -->
+            <form action="https://formsubmit.co/your@email.com" method="POST">
+
+              <!-- Adding Honeypot -->
+              <input type = "text" name="_honey" style="display: none;">
+
+              <!-- Disabling Captcha -->
+              <input type="hidden" name="_captcha" value="false">
+
+              <!-- redirecting to success page -->
+              <input type="hidden" name="_next" value="https://sayang-master.netlify.app/success.html" >
+
+
+              <input type = "text" class = "form-control" name="name" placeholder="Name" required>
+              <input type = "email" class = "form-control" name="email" placeholder="Email" required>
               <textarea placeholder="Message" rows = "6"></textarea>
               <button type = "submit" class = "submit-btn">Send Now</button>
             </form>
