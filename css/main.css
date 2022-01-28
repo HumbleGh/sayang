@@ -71,6 +71,13 @@ section{
     font-weight: 500;
     font-size: 1.1rem;
 }
+.new-logo{
+    height: 90px;
+}
+
+#nav-item {
+    color: #FF5F1F;
+}
 
 /* header */
 .header{
@@ -164,7 +171,8 @@ section{
     border-color: var(--mount-meadow);
 }
 .btn-white{
-    background: #fff;
+    /* background: #fff; */
+    background: #FF5F1F;
     color: var(--night-rider);
     transition: var(--transition);
 }
