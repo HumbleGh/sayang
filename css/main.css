@@ -78,6 +78,9 @@ section{
 #nav-item {
     color: #FF5F1F;
 }
+#to-orange{
+    color:#FF5F1F;
+}
 
 /* header */
 .header{
@@ -466,7 +469,7 @@ section{
 
 /* testimonial */
 .testimonial{
-    background-image: linear-gradient(rgba(27, 188, 156, 0.8), rgba(27, 188, 156, 0.9)), url(../assets/testimonial-bg.jpg);    background-size: cover;
+    background-image: linear-gradient(rgb(255,165,0), rgb(226, 189, 110)), url(../assets/testimonial-bg.jpg);    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
