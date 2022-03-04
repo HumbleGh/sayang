@@ -72,7 +72,7 @@ section{
     font-size: 1.1rem;
 }
 .new-logo{
-    height: 90px;
+    width: 250px;
 }
 
 #nav-item {
@@ -230,6 +230,7 @@ section{
 }
 .container-service h1{
     text-align: center;
+    color: #FF5F1F;
     padding-top: 10%;
     margin-bottom: 60px;
     font-weight: 600;
@@ -258,23 +259,28 @@ section{
     cursor: pointer;
     background: transparent;
     transition: transform 0.5s;
+    background: #FF5F1F;
+    color: #fff;
+    transform: scale(1.05);
 }
 .service i{
     font-size: 40px;
     margin-bottom: 10px;
-    color: #FF5F1F;
-}
+    /* color: #FF5F1F; */
+    color: #fff;
+} 
 .service h2{
     font-weight: 600;
     margin-bottom: 8px;
 }
 .service:hover{
-    background: #FF5F1F;
-    color: #fff;
-    transform: scale(1.05);
+    background: rgb(255, 213, 128);
+    color: #343434;
+    transition: transform 0.5s;
+    transform: scale(1.1);
 }
 .service:hover i{
-    color: #fff;
+    color: #FF5F1F;
 }
 .detail i{
     color: #FF5F1F
@@ -354,8 +360,16 @@ section{
 .team-item{
     margin: 2rem 0;
 }
+.team-image{
+    /* border-radius: 50%; */
+    position: relative;
+    /* width: 70px;  */
+    /* height: 250px; */
+    }
+
 .team-img{
     position: relative;
+    
 }
 .team-icons{
     position: absolute;
