@@ -84,7 +84,7 @@ section{
     font-size: 1.1rem;
 }
 .new-logo{
-    width: 150px;
+    width: 200px;
 }
 
 #nav-item {
@@ -783,4 +783,6 @@ section{
     .contact-right{
         padding-left: 4rem!important;
     }
+    
+    
 }
