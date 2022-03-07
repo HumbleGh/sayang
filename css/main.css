@@ -17,7 +17,7 @@
 
 
 *{
-    font-family: 'Hind Siliguri', sans-serif;
+    font-family: "Roboto", sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -84,7 +84,7 @@ section{
     font-size: 1.1rem;
 }
 .new-logo{
-    width: 250px;
+    height: 75px;
 }
 
 #nav-item {
@@ -94,10 +94,7 @@ section{
     color:#FF5F1F;
 }
 
-.sayang-intro{
-    justify-content: center;
-    font-family: sans-serif;
-}
+
 
 /* header */
 .header{
@@ -301,6 +298,12 @@ section{
 }
 .detail i{
     color: #FF5F1F
+}
+
+#sayang-intro{
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 3.1rem;
 }
 
 
@@ -607,10 +610,14 @@ section{
     color: var(--white-smoke);
     padding: 2rem 0;
     height: 50vh;
-}
+    }
 .footer .text{
     opacity: 0.8;
 }
+.footer-img{
+    height: 120px;
+}
+
 .footer-links{
     display: flex;
     justify-content: center;
