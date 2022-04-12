@@ -84,7 +84,8 @@ section{
     font-size: 1.1rem;
 }
 .new-logo{
-    width: 150px;
+    width: 200px;
+    /* height: 100px */
 }
 
 #nav-item {
