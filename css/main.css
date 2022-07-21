@@ -702,6 +702,13 @@ section{
     .contact-right > div:first-child{
         margin-top: 0;
     }
+    .brand-and-toggler{
+        font-size: 1.65rem;
+        padding: 0.8rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 @media screen and (min-width: 992px){
