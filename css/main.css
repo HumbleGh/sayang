@@ -84,7 +84,7 @@ section{
     font-size: 1.1rem;
 }
 .new-logo{
-    width: 150px;
+    /* width: 150px; */
     margin: 0;
     height: 100px;
     vertical-align:bottom;
@@ -125,7 +125,7 @@ section{
 }
 .brand-and-toggler{
     font-size: 1.65rem;
-    padding: 0.8rem 0;
+    /* padding: 0.8rem 0; */
     display: flex;
     justify-content: space-between;
     align-items: center;
