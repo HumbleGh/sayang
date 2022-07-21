@@ -50,7 +50,7 @@ button{
 .container{
     max-width: 1320px;
     margin: 0 auto;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
 }
 h1, h2, h3, h4, h5, h6{
     margin: 0.6rem 0;
@@ -84,8 +84,11 @@ section{
     font-size: 1.1rem;
 }
 .new-logo{
-    width: 170px;
-    /* height: 100px */
+    /* width: 150px; */
+    margin: 0;
+    height: 100px;
+    vertical-align:bottom;
+    vertical-align: top;
 }
 
 #nav-item {
@@ -117,10 +120,12 @@ section{
     width: 100%;
     background-color: #fff;
     z-index: 999;
+    padding: 0;
+    margin: 0;
 }
 .brand-and-toggler{
     font-size: 1.65rem;
-    padding: 0.8rem 0;
+    /* padding: 0.8rem 0; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -136,9 +141,9 @@ section{
     border: none;
     color: var(--mount-meadow);
 }
-.navbar-nav{
+/* .navbar-nav{
     margin: 0.2rem 0 0.6rem 0;
-}
+} */
 .nav-item{
     padding: 0.6rem 0;
 }
