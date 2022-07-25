@@ -20,7 +20,8 @@
     font-family: "Roboto", sans-serif;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing:border-box;
+    /* vertical-align: top; */
 }
 html{
     color: var(--black);
@@ -48,9 +49,10 @@ button{
     background: transparent;
 }
 .container{
-    max-width: 1320px;
+    max-width: 1420px;
     margin: 0 auto;
     padding: 0 1rem;
+    /* padding: 0; */
 }
 h1, h2, h3, h4, h5, h6{
     margin: 0.6rem 0;
@@ -84,11 +86,24 @@ section{
     font-size: 1.1rem;
 }
 .new-logo{
-    width: 150px;
+    width: 60px;
     margin: 0;
-    height: 100px;
-    vertical-align:bottom;
+    padding-top: 0%;
+    vertical-align: bottom;
     vertical-align: top;
+  
+}
+.sayang{
+    font-size:large;
+    color: #FF5F1F;
+    font-weight: bold;
+}
+.tagline {
+    font-size: 9px;
+    color: #FF5F1F;
+}
+.tag{
+    color:rgba(0, 0, 0, 0.7);
 }
 
 #nav-item {
@@ -118,14 +133,17 @@ section{
     top: 0;
     left: 0;
     width: 100%;
+    /* height: 80px; */
     background-color: #fff;
     z-index: 999;
     padding: 0;
     margin: 0;
+    vertical-align:top;
+    vertical-align:bottom;
 }
 .brand-and-toggler{
     font-size: 1.65rem;
-    /* padding: 0.8rem 0; */
+    padding: 0.8rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -145,7 +163,7 @@ section{
     margin: 0.2rem 0 0.6rem 0;
 }
 .nav-item{
-    padding: 0.6rem 0;
+    padding: 0.2rem 0;
 }
 .nav-link{
     text-transform: uppercase;
@@ -653,7 +671,140 @@ section{
 
 
 /* #### Media Queries #### */
+@media screen and (min-width: 425px){
+    .detail .row{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .detail-item{
+        margin: 0;
+    }
+    .video h2{
+        font-size: 2.6rem;
+    }
+    .video p{
+        font-size: 1.2rem;
+        width: 75%;
+        margin: 0 auto;
+    }
+    .team-item{
+        margin: 0;
+    }
+    .faq .row{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pricing .row{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .pricing-item{
+        margin: 0;
+    }
+    .testimonial-item p{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sayang{
+        font-size:large;
+        color: #FF5F1F;
+        visibility: hidden;
+    }
+    .tagline {
+        font-size: 9px;
+        color: #FF5F1F;
+        visibility: hidden;
+    }
 
+    
+    .contact .row{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2rem;
+    }
+    .contact-right > div:first-child{
+        margin-top: 0;
+    }
+    .brand-and-toggler{
+        font-size: 1.65rem;
+        padding: 0.8rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+@media screen and (min-width: 426px){
+    .detail .row{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .detail-item{
+        margin: 0;
+    }
+    .video h2{
+        font-size: 2.6rem;
+    }
+    .video p{
+        font-size: 1.2rem;
+        width: 75%;
+        margin: 0 auto;
+    }
+    .team-item{
+        margin: 0;
+    }
+    .faq .row{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pricing .row{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .pricing-item{
+        margin: 0;
+    }
+    .testimonial-item p{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sayang{
+        font-size:large;
+        color: #FF5F1F;
+        visibility: hidden;
+    }
+    .tagline {
+        font-size: 9px;
+        color: #FF5F1F;
+        visibility: hidden;
+    }
+
+    
+    .contact .row{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2rem;
+    }
+    .contact-right > div:first-child{
+        margin-top: 0;
+    }
+    .brand-and-toggler{
+        font-size: 1.65rem;
+        padding: 0.8rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
 @media screen and (min-width: 768px){
     .detail .row{
         display: grid;
@@ -692,6 +843,16 @@ section{
         margin-left: auto;
         margin-right: auto;
     }
+    .sayang{
+        font-size:large;
+        color: #FF5F1F;
+        /* visibility: hidden; */
+    }
+    .tagline {
+        font-size: 9px;
+        color: #FF5F1F;
+        /* visibility: hidden; */
+    }
 
     
     .contact .row{
@@ -704,13 +865,13 @@ section{
     }
     .brand-and-toggler{
         font-size: 1.65rem;
-        padding: 1rem 0;
+        padding: 0.8rem 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-}
 
+}
 @media screen and (min-width: 992px){
     .navbar{
         background: transparent;
@@ -749,6 +910,7 @@ section{
         margin-right: 0.8rem;
     }
 
+
     /* navbar change */
     .cng-navbar{
         -webkit-box-shadow: 0 2px 5px 0 rgba(207, 205, 207, 0.3);
@@ -775,6 +937,7 @@ section{
     .video p{
         width: 60%;
     }
+
 }
 
 @media screen and (min-width: 1200px){
